@@ -4,23 +4,23 @@ Este documento descreve a estrutura de pastas recomendada para um projeto Nuxt.j
 
 ## Estrutura de Pastas
 
-├── public/
-├── server/
-├── src/
-│ ├── assets/
-│ ├── components/
-│ ├── layouts/
-│ ├── pages/
-│ ├── plugins/
-│ ├── static/
-│ └── store/
-├── types/
-├── nuxt.config.ts
-├── tailwind.config.ts
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-└── eslint.config.mjs
+├── public/  
+├── server/  
+├── src/  
+│ ├── assets/  
+│ ├── components/  
+│ ├── layouts/  
+│ ├── pages/  
+│ ├── plugins/  
+│ ├── static/  
+│ └── store/  
+├── types/  
+├── nuxt.config.ts  
+├── tailwind.config.ts  
+├── package.json  
+├── package-lock.json  
+├── tsconfig.json  
+└── eslint.config.mjs  
 
 ### Descrição dos principais Diretórios
 
