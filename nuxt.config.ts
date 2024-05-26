@@ -7,13 +7,17 @@ const config: NuxtConfig = {
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
     '@vee-validate/nuxt',
-    '@nuxtjs/eslint-module',
+    '@nuxt/eslint',
     '@nuxtjs/color-mode'
   ],
   primevue: {
     usePrimeVue: true
   },
-  eslint: {},
+  eslint: {
+    config: {
+      stylistic: true
+    }
+  },
   colorMode: {
     preference: 'system',
     fallback: 'light'

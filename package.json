@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -19,10 +21,10 @@
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
+    "@nuxt/eslint": "^0.3.13",
     "@nuxt/types": "^2.17.3",
     "@nuxtjs/color-mode": "^3.4.1",
-    "@nuxtjs/eslint-module": "^4.1.0",
-    "eslint": "^9.3.0",
+    "eslint": "^8.57.0",
     "nuxt-primevue": "^3.0.0"
   }
 }
