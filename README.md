@@ -2,6 +2,14 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
+## Preview Url
+
+https://e-commerce-template-roberto-moraes-projects.vercel.app/
+
+## Sobre o Projeto
+Este é um template front end de e-commerce desenvolvido com Vue 3, Nuxt 3 e Prime Vue, integrando diversas tecnologias e oferecendo uma base sólida para um desenvolvimento escalável e altamente personalizável.
+Utilizando o Nuxt, o template oferece renderização do lado do servidor (SSR), garantindo uma rápida renderização inicial e uma experiência mais suave para os usuários.
+
 ## Tecnologias Utilizadas
 - [Vue 3](https://vuejs.org/)
 - [Nuxt 3](https://nuxt.com/)
