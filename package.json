@@ -5,6 +5,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
+    "setup-linux-env": "cp .env.example .env",
+    "setup-win-env": "copy .env.example .env",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
