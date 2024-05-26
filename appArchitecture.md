@@ -1,6 +1,6 @@
 # Arquitetura da aplicação
 
-Este documento descreve a estrutura de pastas recomendada para um projeto Nuxt.js e fornece orientações sobre quando e como usar as tecnologias listadas nas dependências e devDependencies do arquivo `package.json`.
+Este documento descreve a estrutura de pastas utilizada no projeto e fornece orientações sobre quando e como usar suas tecnologias.
 
 ## Estrutura de Pastas
 
