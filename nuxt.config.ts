@@ -6,6 +6,7 @@ const config: NuxtConfig = {
     'nuxt-primevue',
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
+    '@vee-validate/nuxt',
   ],
   primevue: {
     usePrimeVue: true
