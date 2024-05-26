@@ -8,7 +8,8 @@ const config: NuxtConfig = {
     '@nuxtjs/tailwindcss',
     '@vee-validate/nuxt',
     '@nuxt/eslint',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    '@nuxt/image'
   ],
   primevue: {
     usePrimeVue: true
