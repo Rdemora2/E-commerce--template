@@ -1,7 +1,7 @@
 import type { NuxtConfig } from '@nuxt/types';
 
 const config: NuxtConfig = {
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   modules: [
     'nuxt-primevue',
     '@pinia/nuxt'
