@@ -9,7 +9,8 @@ const config: NuxtConfig = {
     '@vee-validate/nuxt',
     '@nuxt/eslint',
     '@nuxtjs/color-mode',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxtjs/google-fonts'
   ],
   primevue: {
     usePrimeVue: true
