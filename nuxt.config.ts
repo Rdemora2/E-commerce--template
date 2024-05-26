@@ -4,7 +4,8 @@ const config: NuxtConfig = {
   devtools: { enabled: false },
   modules: [
     'nuxt-primevue',
-    '@pinia/nuxt'
+    '@pinia/nuxt',
+    '@nuxtjs/tailwindcss',
   ],
   primevue: {
     usePrimeVue: true
