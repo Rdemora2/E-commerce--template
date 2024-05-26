@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "@nuxt/types": "^2.17.3",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "eslint": "^9.3.0",
     "nuxt-primevue": "^3.0.0"
   }
 }

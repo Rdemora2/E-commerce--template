@@ -7,10 +7,12 @@ const config: NuxtConfig = {
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
     '@vee-validate/nuxt',
+    '@nuxtjs/eslint-module'
   ],
   primevue: {
     usePrimeVue: true
   },
+  eslint: {},
   alias: {
     pinia: "/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs"
   },
