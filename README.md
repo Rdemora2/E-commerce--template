@@ -14,6 +14,10 @@
 - [Tailwind css](https://tailwindcss.com/)
 - [Eslint](https://eslint.org/)
 
+## Estrutura de Pastas e Uso de Tecnologias:
+
+- Para se aprofundar mais em como o projeto teve sua arquitetura organizada, [clique aqui](https://github.com/Rdemora2/E-commerce--template/blob/main/appArchitecture.md)
+
 ## Configurar o projeto:
 
 Certifique-se de instalar as dependências:
@@ -25,7 +29,6 @@ npm install
 # yarn
 yarn install
 ```
-
 ## Servidor de Desenvolvimento
 
 Inicie o servidor de desenvolvimento em `http://localhost:3000`:
