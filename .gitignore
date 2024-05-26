@@ -9,6 +9,9 @@ dist
 # Node dependencies
 node_modules
 
+# Vs code config
+.vscode
+
 # Logs
 logs
 *.log
