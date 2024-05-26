@@ -18,10 +18,29 @@
 
 - Para se aprofundar mais em como o projeto teve sua arquitetura organizada, [clique aqui](https://github.com/Rdemora2/E-commerce--template/blob/main/appArchitecture.md)
 
-## Configurar o projeto:
+## Configuração de desenvolvimento:
 
-Certifique-se de instalar as dependências:
+### Gerar o .env:
 
+#### Windows:
+```bash
+# npm
+npm run setup-win-env
+
+# yarn
+yarn setup-win-env
+```
+
+#### Linux:
+```bash
+# npm
+npm run setup-linux-env
+
+# yarn
+yarn setup-linux-env
+```
+
+### Instalar dependências:
 ```bash
 # npm
 npm install
@@ -29,9 +48,8 @@ npm install
 # yarn
 yarn install
 ```
-## Servidor de Desenvolvimento
 
-Inicie o servidor de desenvolvimento em `http://localhost:3000`:
+### Iniciar localmente servidor de Desenvolvimento
 
 ```bash
 # npm
@@ -41,9 +59,20 @@ npm run dev
 yarn dev
 ```
 
-## Produção
+Pronto! Seu servidor de Desenvolvimento está rodando em `http://localhost:3000`
 
-Cria o aplicativo para produção:
+## Configuração de produção
+
+### Instalar dependências(se necessário):
+```bash
+# npm
+npm install
+
+# yarn
+yarn install
+```
+
+### Criar o aplicativo para produção:
 
 ```bash
 # npm
@@ -53,7 +82,7 @@ npm run build
 yarn build
 ```
 
-Inicia localmente a versão de produção:
+### Iniciar localmente a versão de produção:
 
 ```bash
 # npm
