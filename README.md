@@ -1,5 +1,7 @@
 # E-commerce front end template
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 ## Tecnologias Utilizadas
 - [Vue 3](https://vuejs.org/)
 - [Nuxt 3](https://nuxt.com/)
