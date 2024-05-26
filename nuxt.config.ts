@@ -14,6 +14,10 @@ const config: NuxtConfig = {
     usePrimeVue: true
   },
   eslint: {},
+  colorMode: {
+    preference: 'system',
+    fallback: 'light'
+  },
   alias: {
     pinia: "/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs"
   },
