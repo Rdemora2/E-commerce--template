@@ -2,6 +2,7 @@ import type { NuxtConfig } from '@nuxt/types';
 
 const config: NuxtConfig = {
   devtools: { enabled: false },
+  srcDir: 'src/',
   modules: [
     'nuxt-primevue',
     '@pinia/nuxt',
@@ -25,9 +26,6 @@ const config: NuxtConfig = {
   colorMode: {
     preference: 'system',
     fallback: 'light'
-  },
-  alias: {
-    pinia: "/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs"
   },
   linkChecker: {
     showLiveInspections: true,
