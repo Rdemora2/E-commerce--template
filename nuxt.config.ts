@@ -11,7 +11,8 @@ const config: NuxtConfig = {
     '@nuxtjs/color-mode',
     '@nuxt/image',
     '@nuxtjs/google-fonts',
-    '@nuxtjs/seo'
+    '@nuxtjs/seo',
+    'nuxt-typed-router'
   ],
   primevue: {
     usePrimeVue: true
