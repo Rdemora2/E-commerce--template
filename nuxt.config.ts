@@ -4,7 +4,6 @@ const config: NuxtConfig = {
   devtools: { enabled: false },
   srcDir: 'src/',
   modules: [
-    'nuxt-primevue',
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
     '@vee-validate/nuxt',
@@ -24,12 +23,7 @@ const config: NuxtConfig = {
   build: {
     transpile: ['primevue']
   },
-  plugins: [
-    '~/plugins/primevue.js'
-  ],
-  primevue: {
-    usePrimeVue: true
-  },
+  plugins: [],
   eslint: {
     config: {
       stylistic: true

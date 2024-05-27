@@ -34,7 +34,6 @@
     "@nuxt/eslint": "^0.3.13",
     "@nuxt/types": "^2.17.3",
     "@nuxtjs/color-mode": "^3.4.1",
-    "eslint": "^8.57.0",
-    "nuxt-primevue": "^3.0.0"
+    "eslint": "^8.57.0"
   }
 }
