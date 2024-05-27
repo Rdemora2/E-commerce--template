@@ -15,6 +15,18 @@ const config: NuxtConfig = {
     '@nuxtjs/seo',
     'nuxt-typed-router'
   ],
+  css: [
+    'primeflex/primeflex.css',
+    '@/assets/styles/theme.css',
+    'primevue/resources/primevue.min.css',
+    'primeicons/primeicons.css'
+  ],
+  build: {
+    transpile: ['primevue']
+  },
+  plugins: [
+    '~/plugins/primevue.js'
+  ],
   primevue: {
     usePrimeVue: true
   },
