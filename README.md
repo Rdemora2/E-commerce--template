@@ -18,7 +18,7 @@ Utilizando o Nuxt, o template oferece renderização do lado do servidor (SSR), 
 - [Nuxt Image](https://image.nuxt.com/)
 - [Nuxt Google Fonts](https://google-fonts.nuxtjs.org/)
 - [Nuxt typed router](https://nuxt-typed-router.vercel.app/)
-- [Prime Vue v4](https://v4.primevue.org/)
+- [Vuetify](https://vuetifyjs.com/en/#using-nuxt-3)
 - [Pinia](https://pinia.vuejs.org/)
 - [Vee Validate v4](https://vee-validate.logaretm.com/v4/)
 - [Tailwind css](https://tailwindcss.com/)
