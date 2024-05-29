@@ -14,15 +14,7 @@ const config: NuxtConfig = {
     '@nuxtjs/seo',
     'nuxt-typed-router'
   ],
-  css: [
-    'primeflex/primeflex.css',
-    '@/assets/styles/theme.css',
-    'primevue/resources/primevue.min.css',
-    'primeicons/primeicons.css'
-  ],
-  build: {
-    transpile: ['primevue']
-  },
+  css: [],
   plugins: [],
   eslint: {
     config: {
@@ -31,7 +23,7 @@ const config: NuxtConfig = {
   },
   colorMode: {
     preference: 'system',
-    fallback: 'light'
+    fallback: 'dark'
   },
   linkChecker: {
     showLiveInspections: true,
