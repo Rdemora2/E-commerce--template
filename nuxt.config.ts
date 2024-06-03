@@ -1,4 +1,5 @@
-import type { NuxtConfig } from '@nuxt/types';
+import type { NuxtConfig } from 'nuxt/schema';
+import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify';
 
 const config: NuxtConfig = {
   devtools: { enabled: false },
@@ -12,10 +13,27 @@ const config: NuxtConfig = {
     '@nuxt/image',
     '@nuxtjs/google-fonts',
     '@nuxtjs/seo',
-    'nuxt-typed-router'
+    'nuxt-typed-router',
+    (_options, nuxt) => {
+      nuxt.hooks.hook('vite:extendConfig', (config) => {
+        // @ts-expect-error
+        config.plugins.push(vuetify({ autoImport: true }));
+      });
+    },
   ],
   css: [],
   plugins: [],
+  build: {
+    transpile: ['vuetify'],
+  },
+  vite: {
+    vue: {
+      template: {
+        transformAssetUrls,
+      },
+    },
+  },
+  // @ts-expect-error
   eslint: {
     config: {
       stylistic: true
