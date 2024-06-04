@@ -8,7 +8,7 @@
     >
       <v-img
         src="https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$"
-        max-height="300"
+        max-height="290"
         width="100%"
         max-width="300"
         aspect-ratio="1/1"
@@ -38,7 +38,7 @@
     >
       <v-img
         src="https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$"
-        max-height="300"
+        max-height="290"
         width="100%"
         max-width="300"
         aspect-ratio="1/1"
@@ -68,7 +68,7 @@
     >
       <v-img
         src="https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$"
-        max-height="300"
+        max-height="290"
         width="100%"
         max-width="300"
         aspect-ratio="1/1"
@@ -98,7 +98,7 @@
     >
       <v-img
         src="https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$"
-        max-height="300"
+        max-height="290"
         width="100%"
         max-width="300"
         aspect-ratio="1/1"
