@@ -1,3 +1,4 @@
 <template>
   <homeBanner />
+  <productCard />
 </template>
