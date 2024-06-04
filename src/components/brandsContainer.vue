@@ -1,9 +1,9 @@
 <template>
   <div class="bg-black d-flex">
-    <v-container fluid class="bg-black d-flex" style="height: 15vh; width: 89vw; max-width: 1225px">
+    <v-container fluid class="bg-black d-flex" style="height: 12vh; width: 89vw; max-width: 1225px">
       <v-row class="d-flex justify-between align-center">
         <v-col cols="auto" v-for="brand in brands" :key="brand.name" class="text-center">
-          <img :src="brand.logo" :alt="brand.name" style="object-fit: fill; width: 11vw; height: 6vh; filter: invert(1);"></img>
+          <img :src="brand.logo" :alt="brand.name" style="object-fit: fill; width: 11vw; max-width: 160px; height: 4.5vh; filter: invert(1);"></img>
         </v-col>
       </v-row>
     </v-container>
