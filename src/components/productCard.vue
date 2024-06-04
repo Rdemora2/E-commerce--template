@@ -4,14 +4,10 @@
     style="width: 89vw; max-width: 1240px"
   >
     <v-card max-height="410" width="21vw" max-width="300" class="my-4 mx-2">
-      <v-img
+      <img
         src="https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$"
-        max-height="290"
-        width="100%"
-        max-width="300"
-        aspect-ratio="1/1"
-        cover
-      ></v-img>
+        style="object-fit: fill; width: 100%; max-width: 300px; max-height: 69%;"
+      ></img>
 
       <v-card-title class="text-body-1 font-weight-bold mt-2">
         Polo Cropped Tricotado
@@ -35,14 +31,10 @@
       </v-card-actions>
     </v-card>
     <v-card max-height="410" width="21vw" max-width="300" class="my-4 mx-2">
-      <v-img
+      <img
         src="https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$"
-        max-height="290"
-        width="100%"
-        max-width="300"
-        aspect-ratio="1/1"
-        cover
-      ></v-img>
+        style="object-fit: fill; width: 100%; max-width: 300px; max-height: 69%;"
+      ></img>
 
       <v-card-title class="text-body-1 font-weight-bold mt-2">
         Polo Cropped Tricotado
@@ -66,14 +58,10 @@
       </v-card-actions>
     </v-card>
     <v-card max-height="410" width="21vw" max-width="300" class="my-4 mx-2">
-      <v-img
+      <img
         src="https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$"
-        max-height="290"
-        width="100%"
-        max-width="300"
-        aspect-ratio="1/1"
-        cover
-      ></v-img>
+        style="object-fit: fill; width: 100%; max-width: 300px; max-height: 69%;"
+      ></img>
 
       <v-card-title class="text-body-1 font-weight-bold mt-2">
         Polo Cropped Tricotado
@@ -97,14 +85,10 @@
       </v-card-actions>
     </v-card>
     <v-card max-height="410" width="21vw" max-width="300" class="my-4 mx-2">
-      <v-img
+      <img
         src="https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$"
-        max-height="290"
-        width="100%"
-        max-width="300"
-        aspect-ratio="1/1"
-        cover
-      ></v-img>
+        style="object-fit: fill; width: 100%; max-width: 300px; max-height: 69%;"
+      ></img>
 
       <v-card-title class="text-body-1 font-weight-bold mt-2">
         Polo Cropped Tricotado
