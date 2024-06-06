@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout>
+    <NuxtLayout>
         <v-app>
             <promoBar />
             <navbar />

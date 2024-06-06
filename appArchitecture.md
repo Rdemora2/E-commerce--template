@@ -20,7 +20,7 @@ Este documento descreve a estrutura de pastas utilizada no projeto e fornece ori
 ├── package.json  
 ├── package-lock.json  
 ├── tsconfig.json  
-└── eslint.config.mjs  
+└── eslint.config.mjs
 
 ### Descrição dos principais Diretórios
 
@@ -57,7 +57,6 @@ Este documento descreve a estrutura de pastas utilizada no projeto e fornece ori
 - **`tsconfig.json`**: Configurações do TypeScript para o projeto. Para maiores informações [clique aqui](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 - **`eslint.config.mjs`**: Configuração do ESLint para garantir a qualidade do código. Para maiores informações [clique aqui](https://eslint.org/docs/latest/use/configure/configuration-files)
-
 
 ## Uso de Tecnologias
 

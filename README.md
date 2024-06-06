@@ -7,10 +7,12 @@
 https://e-commerce-template-roberto-moraes-projects.vercel.app/
 
 ## Sobre o Projeto
+
 Este é um template front end de e-commerce desenvolvido com Vue 3, Nuxt 3 e Prime Vue, integrando diversas tecnologias e oferecendo uma base sólida para um desenvolvimento escalável e altamente personalizável.
 Utilizando o Nuxt, o template oferece renderização do lado do servidor (SSR), garantindo uma rápida renderização inicial e uma experiência mais suave para os usuários.
 
 ## Tecnologias Utilizadas
+
 - [Vue 3](https://vuejs.org/)
 - [Nuxt 3](https://nuxt.com/)
 - [Nuxt SEO](https://nuxtseo.com/)
@@ -33,6 +35,7 @@ Utilizando o Nuxt, o template oferece renderização do lado do servidor (SSR), 
 ### Gerar o .env:
 
 #### Windows:
+
 ```bash
 # npm
 npm run setup-win-env
@@ -42,6 +45,7 @@ yarn setup-win-env
 ```
 
 #### Linux:
+
 ```bash
 # npm
 npm run setup-linux-env
@@ -51,6 +55,7 @@ yarn setup-linux-env
 ```
 
 ### Instalar dependências:
+
 ```bash
 # npm
 npm install
@@ -74,6 +79,7 @@ Pronto! Seu servidor de Desenvolvimento está rodando em `http://localhost:3000`
 ## Configuração de produção
 
 ### Instalar dependências(se necessário):
+
 ```bash
 # npm
 npm install
