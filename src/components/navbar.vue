@@ -19,3 +19,7 @@
     </nav>
   </div>
 </template>
+
+<script setup>
+const items = []
+</script>
