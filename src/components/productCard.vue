@@ -134,7 +134,7 @@ export default {
           </v-card-title>
 
           <div class="d-flex flex-row align-center text-center mx-3" style="height: 1vh">
-            <v-rating :value="product.rating" density="comfortable" size="x-small" readonly
+            <v-rating :model-value="product.rating" density="comfortable" size="x-small" readonly
               color="orange-lighten-1"></v-rating>
           </div>
 
