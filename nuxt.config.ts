@@ -51,8 +51,8 @@ const config: NuxtConfig = {
   // alterar com infos reais quando for fazer deploy
   site: {
     url: "https://example.com",
-    name: "Awesome Site",
-    description: "Welcome to my awesome site!",
+    name: "Shop.co",
+    description: "Welcome to Shop.co website!",
   },
   googleFonts: {
     families: {
