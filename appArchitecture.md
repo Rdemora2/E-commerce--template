@@ -66,7 +66,7 @@ A seguir estão as tecnologias utilizadas e suas finalidades:
 
 - **`vue`**: Poderosa ferramenta para criar interfaces de usuário dinâmicas e interativas, oferecendo uma abordagem progressiva, reatividade, componentização, um ecossistema vibrante e desempenho otimizado.
 
-- **`primevue`**: Simplifica o desenvolvimento de interfaces de usuário ao fornecer uma ampla gama de componentes pré-construídos, flexibilidade de customização, compatibilidade com Vue.js e uma documentação abrangente.
+- **`Vuetify`**: Facilita o desenvolvimento de interfaces de usuário ao oferecer uma extensa seleção de componentes prontos para uso, flexibilidade de personalização, total integração com Vue.js e uma documentação detalhada.
 
 - **`nuxt`**: Framework Vue.js com suporte para SSR/SPA, roteamento automático, configurações pré-definidas e integração com um amplo ecossistema de plugins e ferramentas.
 
@@ -85,6 +85,8 @@ A seguir estão as tecnologias utilizadas e suas finalidades:
 - **`@pinia/nuxt`**: Responsável pelo gerenciamento de estado, oferecendo uma solução robusta, reativa e fácil de usar, com suporte para tipagem forte e integração perfeita com o Vue.js e o Nuxt.js.
 
 - **`@vee-validate/nuxt`**: Biblioteca de validação de formulários, oferecendo uma solução poderosa e flexível, com suporte para validação reativa, validação assíncrona e personalização de mensagens de erro.
+
+- **`Faker`**: Ferramenta para criar mocks de API. Ele permite gerar dados falsos que podem simular respostas de uma API real. Com o Faker, os desenvolvedores podem criar dados fictícios para testar o comportamento de seus aplicativos sem depender de uma API real. Isso é especialmente útil durante o desenvolvimento e os testes, pois os dados falsos podem ser gerados rapidamente e personalizados conforme necessário. Com suporte para uma variedade de tipos de dados e idiomas, o Faker é uma escolha popular para criar mocks de API de forma rápida e eficiente.
 
 ## Conclusão
 

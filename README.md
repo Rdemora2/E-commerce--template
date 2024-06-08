@@ -22,6 +22,7 @@ Utilizando o Nuxt, o template oferece renderização do lado do servidor (SSR), 
 - [Nuxt typed router](https://nuxt-typed-router.vercel.app/)
 - [Vuetify](https://vuetifyjs.com/en/#using-nuxt-3)
 - [Pinia](https://pinia.vuejs.org/)
+- [Faker.js](https://fakerjs.dev/)
 - [Vee Validate v4](https://vee-validate.logaretm.com/v4/)
 - [Tailwind css](https://tailwindcss.com/)
 - [Eslint](https://eslint.org/)
