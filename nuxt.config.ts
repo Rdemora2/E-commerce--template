@@ -2,6 +2,7 @@ import type { NuxtConfig } from "nuxt/schema";
 import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 
 const config: NuxtConfig = {
+  ssr: true,
   devtools: { enabled: false },
   srcDir: "src/",
   modules: [
