@@ -1,15 +1,13 @@
 <template>
-    <v-container class="pa-0">
+    <v-container class="d-flex flex-col mx-auto" style="width: 89vw; max-width: 1240px">
         <v-row class="d-flex justify-center" ref="productRow">
-            <ProductCard v-for="(product, i) in visibleProducts" :key="i" :product="product" />
+            <ProductCard v-for="(product, index) in visibleProducts" :key="index" :product="product" />
         </v-row>
-        <v-row>
-            <v-col class="text-center">
-                <v-btn v-if="products.length > visibleProducts.length" @click="toggleShowMore">
-                    {{ showMore ? 'Ver Menos' : 'Ver Mais' }}
-                </v-btn>
-            </v-col>
-        </v-row>
+        <div v-if="products.length > visibleProducts.length" class="text-center">
+            <v-btn @click="toggleShowMore">
+                {{ showMore ? 'Ver Menos' : 'Ver Mais' }}
+            </v-btn>
+        </div>
     </v-container>
 </template>
 
@@ -38,8 +36,8 @@ const productRow = ref(null)
 const itemsPerRow = ref(4)
 
 const updateItemsPerRow = () => {
-    if (productRow.value) {
-        const rowWidth = productRow.value.clientWidth
+    if (productRow.value && productRow.value.$el) {
+        const rowWidth = productRow.value.$el.clientWidth
         const itemWidth = 300
         itemsPerRow.value = Math.floor(rowWidth / itemWidth)
     }
@@ -55,16 +53,16 @@ const toggleShowMore = () => {
 
 let resizeObserver
 onMounted(() => {
-    resizeObserver = new ResizeObserver(updateItemsPerRow)
-    if (productRow.value) {
-        resizeObserver.observe(productRow.value)
+    resizeObserver = new ResizeObserver(updateItemsPerRow);
+    if (productRow.value && productRow.value.$el) {
+        resizeObserver.observe(productRow.value.$el)
     }
     updateItemsPerRow()
 })
 
 onBeforeUnmount(() => {
-    if (resizeObserver && productRow.value) {
-        resizeObserver.unobserve(productRow.value)
+    if (resizeObserver && productRow.value && productRow.value.$el) {
+        resizeObserver.unobserve(productRow.value.$el)
     }
 })
 </script>
