@@ -14,6 +14,7 @@ const config: NuxtConfig = {
     "@nuxt/image",
     "@nuxtjs/google-fonts",
     "@nuxtjs/seo",
+    "@nuxtjs/vercel-insights",
     "nuxt-typed-router",
     (_options, nuxt) => {
       nuxt.hooks.hook("vite:extendConfig", (config) => {
