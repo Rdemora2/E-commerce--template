@@ -3,7 +3,7 @@
         <v-row class="d-flex justify-center" ref="productRow">
             <ProductCard v-for="(product, index) in visibleProducts" :key="index" :product="product" />
         </v-row>
-        <div v-if="products.length > visibleProducts.length" class="text-center">
+        <div class="text-center">
             <v-btn @click="toggleShowMore">
                 {{ showMore ? 'Ver Menos' : 'Ver Mais' }}
             </v-btn>
