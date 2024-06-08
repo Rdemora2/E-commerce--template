@@ -4,7 +4,7 @@
 
 ## Preview Url
 
-https://e-commerce-template-roberto-moraes-projects.vercel.app/
+https://e-commerce-template-steel.vercel.app/
 
 ## Sobre o Projeto
 
