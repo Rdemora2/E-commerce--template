@@ -3,7 +3,7 @@
         <v-row class="d-flex justify-center" ref="productRow">
             <ProductCard v-for="(product, index) in visibleProducts" :key="index" :product="product" />
         </v-row>
-        <div v-if="product" class="text-center">
+        <div v-if="products.length > itemsPerRow" class="text-center">
             <v-btn @click="toggleShowMore">
                 {{ showMore ? 'Ver Menos' : 'Ver Mais' }}
             </v-btn>
@@ -12,7 +12,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { ref, onMounted, onBeforeUnmount } from 'vue'
 
 const props = defineProps(['products'])
 
