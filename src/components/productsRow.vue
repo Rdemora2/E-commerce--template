@@ -13,24 +13,10 @@
 
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
-import ProductCard from './productCard.vue'
+
+const props = defineProps(['products'])
 
 const showMore = ref(false)
-const products = ref([
-    { name: 'Polo Cropped Tricotado', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$150,00', rating: 4 },
-    { name: 'Polo Tricotado Cropped', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$250,00', rating: 3 },
-    { name: 'Polo Cropped', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$750,00', rating: 5 },
-    { name: 'Polo Tricotado', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$50,00', rating: 1 },
-    { name: 'Polo Tricotapped', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$30,00', rating: 2 },
-    { name: 'Polo Tricotado', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$50,00', rating: 1 },
-    { name: 'Polo Tricotado', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$50,00', rating: 1 },
-    { name: 'Polo Tricotado', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$50,00', rating: 1 },
-    { name: 'Polo Tricotado', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$50,00', rating: 1 },
-    { name: 'Polo Tricotado', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$50,00', rating: 1 },
-    { name: 'Polo Tricotado', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$50,00', rating: 1 },
-    { name: 'Polo Tricotado', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$50,00', rating: 1 },
-    { name: 'Polo Tricotado', photo: 'https://www.optimized-rlmedia.io/is/image/PoloGSI/s7-AI211943140001_alternate10?$rl_4x5_pdp$', price: 'R$50,00', rating: 1 },
-])
 
 const productRow = ref(null)
 const itemsPerRow = ref(4)
@@ -44,7 +30,7 @@ const updateItemsPerRow = () => {
 }
 
 const visibleProducts = computed(() => {
-    return showMore.value ? products.value : products.value.slice(0, itemsPerRow.value)
+    return showMore.value ? props.products : props.products.slice(0, itemsPerRow.value)
 })
 
 const toggleShowMore = () => {
