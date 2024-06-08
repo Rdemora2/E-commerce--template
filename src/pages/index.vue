@@ -1,5 +1,5 @@
 <template>
   <homeBanner />
   <brandsContainer />
-  <productCard />
+  <productsRow />
 </template>
