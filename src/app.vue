@@ -4,6 +4,7 @@
             <promoBar />
             <navbar />
             <NuxtPage />
+            <SpeedInsights />
         </v-app>
     </NuxtLayout>
 </template>
