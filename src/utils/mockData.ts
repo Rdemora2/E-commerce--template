@@ -6,7 +6,7 @@ export function generateMockProducts(count: number): Product[] {
   for (let i = 0; i < count; i++) {
     const product: Product = {
       name: faker.commerce.productName(),
-      photo: faker.image.imageUrl(),
+      photo: faker.image.url(),
       price: faker.commerce.price(),
       rating: faker.number.int({ min: 1, max: 5 }),
     };
