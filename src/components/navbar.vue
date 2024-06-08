@@ -12,7 +12,7 @@
           <v-autocomplete :items="items" menu-icon="" placeholder="Buscar Produtos..." prepend-inner-icon="mdi-magnify"
             variant="solo" rounded density="comfortable"></v-autocomplete>
           <v-avatar class="mx-2">
-            <v-img src="https://cdn.vuetifyjs.com/images/lists/2.jpg"></v-img>
+            <NuxtImg src="https://cdn.vuetifyjs.com/images/lists/2.jpg"></NuxtImg>
           </v-avatar>
         </div>
       </v-app-bar>

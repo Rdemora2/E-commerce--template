@@ -3,7 +3,7 @@
     <v-container fluid class="d-flex" style="height: 12vh; width: 89vw; max-width: 1225px">
       <v-row class="d-flex justify-between align-center">
         <v-col cols="auto" v-for="brand in brands" :key="brand.name" class="text-center">
-          <img :src="brand.logo" :alt="brand.name" :class="imgClass"></img>
+          <NuxtImg :src="brand.logo" :alt="brand.name" :class="imgClass"></NuxtImg>
         </v-col>
       </v-row>
     </v-container>

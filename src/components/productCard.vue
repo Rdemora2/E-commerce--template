@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12" xs="6" sm="6" md="4" lg="3" xl="3" class="text-left">
     <v-card max-height="410" class="my-4 mx-2">
-      <img :src="product.photo" :alt="product.name"
+      <NuxtImg :src="product.photo" :alt="product.name"
         style="object-fit: fill; width: 100%; max-width: 300px; max-height: 295px;" />
       <v-card-title class="text-body-1 font-weight-bold mt-2">
         {{ product.name }}
