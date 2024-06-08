@@ -1,5 +1,5 @@
 <template>
-  <v-col cols="12" xs="6" sm="4" md="4" lg="3" xl="2" class="text-center">
+  <v-col cols="12" xs="6" sm="4" md="4" lg="3" xl="3" class="text-center">
     <v-card max-height="410" class="my-4 mx-2">
       <img :src="product.photo" :alt="product.name"
         style="object-fit: fill; width: 100%; max-width: 300px; max-height: 295px;" />
