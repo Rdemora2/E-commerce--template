@@ -6,6 +6,10 @@
 
 https://e-commerce-template-steel.vercel.app/
 
+## Preview Image
+
+![image](https://github.com/Rdemora2/E-commerce--template/assets/103211332/bb119042-bd04-4833-a272-b4fcd58f22d0)
+
 ## Sobre o Projeto
 
 Este é um template front end de e-commerce desenvolvido com Vue 3, Nuxt 3 e Prime Vue, integrando diversas tecnologias e oferecendo uma base sólida para um desenvolvimento escalável e altamente personalizável.
