@@ -1,5 +1,6 @@
 <template>
     <v-container class="d-flex flex-col mx-auto" style="width: 89vw; max-width: 1240px">
+        <h1 class="text-h4 text-center mt-8 mb-4 font-weight-black text-uppercase">{{ title }}</h1>
         <v-row class="d-flex justify-center" ref="productRow">
             <ProductCard v-for="(product, index) in visibleProducts" :key="index" :product="product" />
         </v-row>
@@ -14,7 +15,10 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 
-const props = defineProps(['products'])
+const props = defineProps({
+    title: String,
+    products: Array
+})
 
 const showMore = ref(false)
 

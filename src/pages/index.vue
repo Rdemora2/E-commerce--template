@@ -1,8 +1,8 @@
 <template>
   <homeBanner />
   <brandsContainer />
-  <productsRow :products="productStore.newProducts" />
-  <productsRow :products="productStore.topProducts" />
+  <productsRow :products="productStore.newProducts" title="New Products" />
+  <productsRow :products="productStore.topProducts" title="Top Products" />
 </template>
 
 <script setup>
