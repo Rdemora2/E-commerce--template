@@ -8,7 +8,7 @@ https://e-commerce-template-steel.vercel.app/
 
 ## Preview Image
 
-![image](https://github.com/Rdemora2/E-commerce--template/assets/103211332/bb119042-bd04-4833-a272-b4fcd58f22d0)
+![image](https://github.com/Rdemora2/E-commerce--template/assets/103211332/2d4571d4-0531-4444-a0d3-28d4a28910e6)
 
 ## Sobre o Projeto
 
